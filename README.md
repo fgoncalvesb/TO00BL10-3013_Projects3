@@ -14,7 +14,8 @@ Student ID: 2106497
 
 ## Application description
 
-It's a simple webpage that let's you administrate invoices. It is made in REACT and styles in bootstrap.
+It's a simple webpage that let's you administrate invoices. It is made in REACT and styles in bootstrap. It's preferable to test it with Google Chrome.
+
 This webpage shows you all the available invoices as soon as ou enter. It let's you filter them by "Invoice Name", it let's you create a new one, it let's you get one invoice in specific instead of all, update one or all the fields in an invoice and finally it let's you delete an invoice by ID.
 
 This webpage interacts with the REST API that was created by me in project 2. The webpage interacts with the 5 possible ways to call the API:
