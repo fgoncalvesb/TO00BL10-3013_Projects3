@@ -110,7 +110,7 @@ const App = () => {
                   throw Error("Could not delete invoice, please check that the ID exists.")
               
         } else if (res.status!=200){
-          throw Error("Could not fetch data properly, please try again")
+          throw Error("Could not delete invoice properly, please try again.")
         } else {
 
         res.json().then(json => {
