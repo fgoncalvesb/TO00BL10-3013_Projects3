@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# TO00BS65-3003_Projects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a repository for project 3 of the Full Stack Development Laurea course
 
-## Available Scripts
+Project 3: REACT front-end
+By Facundo Goncalves Borrega
+Student ID: 2106497
 
-In the project directory, you can run:
+## Render URL
 
-### `npm start`
+- https://full-stack-ope-fgb-p3.onrender.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Application description
 
-### `npm test`
+It's a simple webpage that let's you administrate invoices. It is made in REACT and styles in bootstrap.
+This webpage shows you all the available invoices as soon as ou enter. It let's you filter them by "Invoice Name", it let's you create a new one, it let's you get one invoice in specific instead of all, update one or all the fields in an invoice and finally it let's you delete an invoice by ID.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This webpage interacts with the REST API that was created by me in project 2. The webpage interacts with the 5 possible ways to call the API:
 
-### `npm run build`
+GET https://full-stack-ope-fgb-p2.onrender.com/api/getall Returns all invoices in collection - Returnos all (max 20) documents in the collcetion, in an array.
+GET https://full-stack-ope-fgb-p2.onrender.com/api/:id Returns one invoice with the given id
+POST https://full-stack-ope-fgb-p2.onrender.com/api/add Creates a new invoice in the collection
+PUT https://full-stack-ope-fgb-p2.onrender.com/api/update/:id Updates the invoice with the given id. It tries to update only the part that you put in the json and just for that invoice.
+DELETE https://full-stack-ope-fgb-p2.onrender.com/api/delete/:id Deletes the invoice with the given id and if it was successfull, will show you which invoice it deleted.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Criteria for assignemnt
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/jukmali/Full-Stack-Master/blob/main/projects/project_3.pdf
